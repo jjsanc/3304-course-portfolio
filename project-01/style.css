@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+#skills {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 25px;
+    border-radius: 12px;
+    border-color: slategray;
+    box-shadow: 0 4px 10px white ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.skill-card p {
+    line-height: 1.6;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px darkcyan;
+    border-color: lightcyan;
+}
+
+/* Project Section */
+#projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: darkslategray;
+    color: whitesmoke;
+    width: 300px;
+    border-radius: 12px;
+    border-color: slategrey;
+    box-shadow: 0 4px 10px white;
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin: 20px 15px 10px;
+}
+
+.project-card p {
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 20px darkcyan;
+    border-color: lightcyan;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px;
+}
+
+#contact a {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: cyan;
+
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+}
+
+#about p {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: 30px;
+    border: 2px solid slategray;
+    border-radius: 12px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+#about p:hover {
+    border-color: lightcyan;
+    box-shadow: 0 8px 20px darkcyan;
+    transition: 0.3s ease;
+}
+
+
+body {
+    background-color: midnightblue;
+    color:  whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: darkslateblue;
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: lightcyan;
+    font-size: 2.5rem;
+}
